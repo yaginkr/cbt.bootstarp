@@ -1,0 +1,246 @@
+/*  */
+/* @media (min-width: 1200px) {
+    .container{
+        max-width: 1400px;
+    }
+} */
+
+
+/* 公共样式 */
+
+.section{
+    padding: 120px 0;
+}
+
+
+
+
+/* 顶部信息样式 -- 开始 -- */
+
+/* 蓝色渐变色条 */
+.blue-gradient{
+    background: linear-gradient(45deg, #0E90D5, #3032A2) !important;
+}
+
+.top-info{
+    padding: 6px 0;
+    font-size: 14px;
+}
+
+.top-info a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.top-info i{
+    color: #fff;
+    margin-right: 5px;
+}
+
+.toHOME{
+    margin-right: 20px;
+}
+
+/* 顶部信息样式 -- 结束 -- */
+
+
+
+
+
+/* 导航部分 -- 开始 -- */
+
+
+
+/* 头部logo的大小 */
+.top-logo img{
+    width: 180px;
+}
+
+
+
+/* 导航部分 -- 结束 -- */
+
+
+.hero-banner{
+    background: url("../images/undraw_Online_collaboration_re_bkpm.svg") no-repeat right;
+    background-size: 550px;
+}
+
+.jumbotron{
+    background-color:unset
+}
+
+.bg-light-grey {
+    background: #F9F9FB;
+}
+
+
+
+
+
+
+
+/*  */
+.about-incross-img{
+    width: 500px;
+    
+}
+
+.about-incross-img img{
+    width: 100%;
+}
+
+.about-incross-txt h2{
+    font-size: 42px;
+    line-height: 48px;
+    font-weight: 800;
+}
+
+.title-under-line {
+    position: relative;
+}
+
+.title-under-line:before {
+    content: "";
+    background: linear-gradient(45deg, #0E90D5, #3032A2) !important;
+    position: absolute;
+    height: 8px;
+    width: 150px;
+    bottom: -35px;
+    left: 0;
+}
+
+.f-weight-400{
+    font-weight: 400;
+    font-size: 38px;
+}
+
+/*  */
+
+/* our service2  开始 */
+.section-title{
+    margin-bottom: 100px;
+}
+
+
+.section-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    color: #222222;
+}
+
+.section-title h2::before, .section-title h2::after {
+    content: '';
+    width: 50px;
+    height: 2px;
+    background: #3498db;
+    display: inline-block;
+}
+
+.section-title p {
+    margin: 15px 0 0 0;
+}
+
+.services .icon-box {
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
+    transition: all 0.3s ease-in-out;
+    border-radius: 8px;
+    z-index: 1;
+}
+
+.services .icon-box::before {
+    content: '';
+    position: absolute;
+    background: #e1f0fa;
+    right: -60px;
+    top: -40px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    transition: all 0.3s;
+    z-index: -1;
+}
+
+.services .icon {
+    margin: 0 auto 20px auto;
+    padding-top: 10px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background: #3498db;
+    transition: all 0.3s ease-in-out;
+    color: #fff;
+    font-size: 30px;
+}
+
+.services .title {
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.services .description {
+    font-size: 15px;
+    line-height: 28px;
+    margin-bottom: 0;
+}
+
+
+/* our service2  结束 */
+
+
+
+
+
+
+
+/* 脚部 开始 */
+
+footer{
+        background: #0C3A58;
+        padding: 25px 0;
+}
+
+
+.company-foot-info{
+    color: #F9F9FB;
+}
+
+.company-foot-info ul{
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+
+.company-foot-info ul li{
+    margin-right: 15px;
+    font-size: 14px;
+}
+
+
+.comoany-foot-copyright ul{
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.comoany-foot-copyright ul li{
+    color: #F9F9FB;
+    margin-right: 20px;
+    font-size: 14px;
+}
+
+.comoany-foot-copyright ul li a{
+    color: #F9F9FB;
+    text-decoration: none;
+}
