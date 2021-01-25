@@ -78,7 +78,17 @@ body{
 
 
 
+/*  */
 
+.new-china-network-info{
+    padding: 20px;
+}
+
+.new-china-network-info i{
+    margin-top: 5px;
+    padding-right: 15px;
+    font-size: 28px;
+}
 
 
 
