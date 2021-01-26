@@ -11,6 +11,10 @@ body{
     padding: 120px 0;
 }
 
+.section-60{
+    padding: 60px 0;
+}
+
 
 
 
@@ -86,8 +90,12 @@ body{
 
 .new-china-network-info i{
     margin-top: 5px;
-    padding-right: 15px;
-    font-size: 28px;
+    font-size: 32px;
+}
+
+.new-china-network-info span{
+    font-size: 18px;
+    padding-left: 10px;
 }
 
 
