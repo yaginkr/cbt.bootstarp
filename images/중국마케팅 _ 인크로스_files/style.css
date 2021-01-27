@@ -6,6 +6,10 @@ body{
 }
 
 
+
+
+
+
  .index-hero-title{
     font-weight: 800;
     font-size: 58px;
@@ -77,26 +81,8 @@ body{
     font-weight: 700;
 }
 
-.dropdown-menu{
-    width: 230px;
-}
-
-.dropdown-item {
-    padding: .85rem 1.5rem;
-    font-weight: 400;
-    color: #212529;
-}
-
-/* 当前 导航 active 颜色 */
-.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
-    color: #2051af
-}
-
-/*  */
-.dropdown-item:focus, .dropdown-item:hover {
-    color: #ffffff;
-    text-decoration: none;
-    background-color: #2051af
+.nav-item.active{
+    color:#0E90D5;
 }
 
 
@@ -414,32 +400,7 @@ footer{
 
 
 
-@media (max-width: 768px) {
-    
-    .about-incross-img img{
-        width: 100%;
-    }
-    
-    .about-incross-txt h2{
-        font-size: 42px;
-        line-height: 48px;
-        font-weight: 800;
-    }
-
-    .about-incross-txt span{
-        font-size: 42px;
-        line-height: 48px;
-        font-weight: 800;
-    }
-
-    /* 手机端 导航 宽度 */
-    .nav-link {
-        padding: 1.2rem 1rem;
-    }
-
-    .dropdown-menu{
-        width: 100%;
-    }
+@media (max-width: 768px) { 
 
     .section-sub-title h2{
         font-size: 20px;
@@ -480,64 +441,12 @@ footer{
         font-size: 32px;
         font-weight: 600;
     }
-
     .ask img{
         width: 230px;
     }
 
-    .services .icon-box {
-        padding: 15px;
-        position: relative;
-        overflow: hidden;
-        background: #fff;
-        box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
-        transition: all 0.3s ease-in-out;
-        border-radius: 8px;
-        z-index: 1;
-    }
-    
-    .services .icon-box::before {
-        content: '';
-        position: absolute;
-        background: #e1f0fa;
-        right: -60px;
-        top: -40px;
-        width: 100px;
-        height: 100px;
-        border-radius: 50px;
-        transition: all 0.3s;
-        z-index: -1;
-    }
-    
-    .services .icon {
-        margin: 0 auto 20px auto;
-        padding-top: 10px;
-        display: inline-block;
-        text-align: center;
-        border-radius: 50%;
-        width: 50px;
-        height: 50px;
-        background: #3498db;
-        transition: all 0.3s ease-in-out;
-        color: #fff;
-        font-size: 25px;
-    }
-    
-    .services .title {
-        font-weight: 700;
-        margin-bottom: 15px;
-        font-size: 18px;
-    }
-    
-    .services .description {
-        font-size: 15px;
-        line-height: 28px;
-        margin-bottom: 0;
-    }
-
-
     .company-foot-info img{
-        width: 90%;
+        width: 100%;
     }
 
  }
@@ -549,28 +458,7 @@ footer{
 
 
 
- @media (max-width: 576px) {
-
-    .about-incross-img img{
-        width: 100%;
-    }
-    
-    .about-incross-txt h2{
-        font-size: 28px;
-        line-height: 48px;
-        font-weight: 800;
-    }
-
-    .about-incross-txt h5{
-        font-size: 18px;
-        font-weight: 700;
-    }
-
-    .about-incross-txt span{
-        font-size: 28px;
-        line-height: 48px;
-        font-weight: 800;
-    }
+ @media (max-width: 576px) { 
     
     .section{
         padding: 60px 0;
@@ -599,10 +487,6 @@ footer{
         font-size: 28px;
     }
 
-    .section-title p{
-        margin: 20px 0;
-    }
-
     .section-sub-title h2{
         font-size: 18px;
         font-weight: 600;
@@ -622,56 +506,10 @@ footer{
         font-size: 28px;
     }
 
+    .ask img{
+        width: 230px;
+    }
 
-    .services .icon-box {
-        padding: 8px;
-        position: relative;
-        overflow: hidden;
-        background: #fff;
-        box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
-        transition: all 0.3s ease-in-out;
-        border-radius: 8px;
-        z-index: 1;
-    }
-    
-    .services .icon-box::before {
-        content: '';
-        position: absolute;
-        background: #e1f0fa;
-        right: -60px;
-        top: -40px;
-        width: 100px;
-        height: 100px;
-        border-radius: 50px;
-        transition: all 0.3s;
-        z-index: -1;
-    }
-    
-    .services .icon {
-        margin: 0 auto 20px auto;
-        padding-top: 10px;
-        display: inline-block;
-        text-align: center;
-        border-radius: 50%;
-        width: 40px;
-        height: 40px;
-        background: #3498db;
-        transition: all 0.3s ease-in-out;
-        color: #fff;
-        font-size: 20px;
-    }
-    
-    .services .title {
-        font-weight: 700;
-        margin-bottom: 10px;
-        font-size: 16px;
-    }
-    
-    .services .description {
-        font-size: 14px;
-        line-height: 18px;
-        margin-bottom: 0;
-    }
 
     .company-foot-info ul{
         flex-direction: column;
@@ -682,7 +520,7 @@ footer{
     }
 
     .company-foot-info img{
-        width: 50%;
+        width: 60%;
     }
     
     .company-foot-info address{
