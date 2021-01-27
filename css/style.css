@@ -400,7 +400,7 @@ footer{
     }
 
     .main-hero-bgcolor{
-        background: linear-gradient(65deg, #3032A2, #0E90D5) !important;
+        background: url("../images/wallpaperflare.com_wallpaper.jpg") no-repeat center;
         color: #ffffff;
     }
 
