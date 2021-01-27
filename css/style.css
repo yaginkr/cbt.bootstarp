@@ -1,9 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Yusei+Magic&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
 
 body{
-    font-family: 'Yusei Magic', 'Noto Sans KR';
+    font-family: 'Nanum Gothic', sans-serif;
 }
+
+
+
+
+
+
+ .index-hero-title{
+    font-weight: 800;
+    font-size: 58px;
+}
+
+.index-hero-sub-title{
+    font-weight: 700;
+    font-size: 28px;
+}
+
+
 
 /* 公共样式 */
 
@@ -61,15 +78,21 @@ body{
 
 .nav-link{
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 700;
 }
+
+.nav-item.active{
+    color:#0E90D5;
+}
+
+
 
 /* 导航部分 -- 结束 -- */
 
 
 .hero-banner{
     background: url("../images/undraw_Online_collaboration_re_bkpm.svg") no-repeat right;
-    background-size: 550px;
+    background-size: 100%;
 }
 
 .jumbotron{
@@ -81,11 +104,11 @@ body{
 }
 
 
-
 /*  */
 
 .new-china-network-info{
     padding: 20px;
+    text-align: right;
 }
 
 .new-china-network-info i{
@@ -144,7 +167,7 @@ body{
 
 
 .section-title h2 {
-    font-size: 32px;
+    font-size: 18px;
     font-weight: bold;
     text-transform: uppercase;
     position: relative;
@@ -333,3 +356,109 @@ footer{
     color: #F9F9FB;
     text-decoration: none;
 }
+
+
+
+
+
+@media (max-width: 768px) { 
+    .new-china-network-info{
+        padding: 5px;
+        text-align: center;
+    }
+
+    .new-china-network-info-icon{
+        text-align: center;
+    }
+    
+    .new-china-network-info i{
+        margin: 5px 0;
+        font-size: 24px;
+    }
+    
+    .new-china-network-info h1{
+        font-size: 28px;
+        padding-left: 10px;
+    }
+
+    .new-china-network-info span{
+        font-size: 18px;
+        padding-left: 10px;
+    }
+
+    .company-foot-info img{
+        width: 100%;
+    }
+
+ }
+
+
+ @media (max-width: 576px) { 
+    
+    .section{
+        padding: 60px 0;
+    }
+
+    .main-hero-bgcolor{
+        background: linear-gradient(65deg, #3032A2, #0E90D5) !important;
+        color: #ffffff;
+    }
+
+    .index-hero-title{
+        font-weight: 800;
+        font-size: 36px;
+    }
+
+    .index-hero-sub-title{
+        font-weight: 400;
+        font-size: 28px;
+    }
+
+    .section-title{
+        margin-bottom: 0px;
+    }
+
+    .section-title h2{
+        font-size: 28px;
+    }
+
+    .section-sub-title h2{
+        font-size: 18px;
+        font-weight: 600;
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .company-foot-info ul{
+        flex-direction: column;
+    }
+
+    .company-foot-info ul li{
+        margin: 5px 0;
+    }
+
+    .company-foot-info img{
+        width: 60%;
+    }
+    
+    .company-foot-info address{
+        margin: 20px 0;
+    }
+
+    .comoany-foot-copyright ul{
+        flex-direction: column;
+    }
+
+    .comoany-foot-copyright ul li{
+        margin: 10px 0 0 0;
+    }
+
+
+ }
+
+
+@media (max-width: 992px) { 
+
+ }
+
+
