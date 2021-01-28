@@ -1,4 +1,51 @@
+.ad-list-head-bgimg{
+    background: url(../images/nhu-nguyen-IL1qSqEMNBo-unsplash.jpg) rgba(0, 0, 0, .6) no-repeat center;
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+
+.ad-list-head {
+    color: #ffffff;
+}
+
+.ad-list-head h1{
+    font-size: 48px;
+    font-weight: 800;
+}
+
 .adlist .card{
     width: 320px;
     margin: 15px 0px;
+}
+
+
+@media (max-width: 768px) {
+
+    .ad-list-head h1{
+        font-size: 32px;
+        font-weight: 700;
+    }
+
+    .adlist .card{
+        width: 100%;
+        margin: 15px 0px;
+    }
+
+}
+
+@media (max-width: 576px) {
+
+    .adlist .card{
+        width: 100%;
+        margin: 15px 0px;
+    }
+
+    .adlist .card img{
+        height: 180px;
+    }
+
+    .ad-list-head h1{
+        font-size: 28px;
+        font-weight: 600;
+    }
 }

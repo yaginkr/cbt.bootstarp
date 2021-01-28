@@ -1,0 +1,92 @@
+.ad-detail-head-bgimg{
+    background: url(../images/nelly-antoniadou-9X1P46Y2KJo-unsplash.jpg) rgba(0, 0, 0, .6) no-repeat center;
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+
+.swiper-wrapper{
+    height: 400px;
+}
+
+.ad-detail-head-bgimg{
+    color: #ffffff;
+}
+
+.ad-detail-head-bgimg h1{
+    font-weight: 800;
+}
+
+.ad-info-swiper div img{
+    height: 500px;
+}
+
+.owl-carousel .great-ad-case img{
+    width: 220px;
+}
+
+@media (max-width: 768px) {
+
+    .ad-detail-head-bgimg h1{
+        font-size: 32px;
+    }
+
+    .ad-detail-head-bgimg .lead{
+        font-size: 14px;
+    }
+
+    .swiper-wrapper{
+        height: 100%;
+    }
+
+    .ad-info-swiper div img{
+        height: 300px;
+    }
+
+    .ad-info-swiper div h1{
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    .ad-info-swiper div p{
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .owl-carousel .great-ad-case img{
+        width: 220px;
+    }
+    
+
+}
+
+@media (max-width: 576px) {
+
+    .ad-info-swiper{
+        flex-direction: column-reverse;
+    }
+
+    .ad-info-swiper div h1{
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    .ad-info-swiper div p{
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .ad-info-swiper div img{
+        height: 300px;
+    }
+
+    .owl-carousel .great-ad-case{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .owl-carousel .great-ad-case img{
+        width: 180px;
+    }
+
+}
