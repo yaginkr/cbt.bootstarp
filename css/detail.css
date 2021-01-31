@@ -8,6 +8,16 @@
     
 }
 
+.tencent-video-hero-banner{
+    background: url(../images/tencent-video-ad-hero-banner.jpg) rgba(0, 0, 0, .6) no-repeat center;
+    background-size: cover;
+}
+
+.tencent-news-hero-banner{
+    background: url(../images/tencent-news-ad-hero-banner.jpg) rgba(0, 0, 0, .6) no-repeat center;
+    background-size: cover;
+}
+
 .swiper-wrapper{
     height: 400px;
 }
@@ -72,8 +82,7 @@
 
 
 .tencent-app{
-    height: 500px;
-    overflow: hidden;
+    height: 450px;
 }
 
 .tencent-app img{
@@ -89,9 +98,26 @@
     width: 550px;
 }
 
+.tencent-news-app{
+    height: 450px;
+    
+}
+
+.tencent-news-app img{
+    width: 400px;
+}
+
 
 
 @media (max-width: 768px) {
+
+    .tencent-news-app{
+        height: 450px;
+    }
+    
+    .tencent-news-app img{
+    }
+    
 
     .tencent-app{
         height: 380px;
@@ -155,6 +181,11 @@
 }
 
 @media (max-width: 576px) {
+
+    .wechat-app{
+        height: 200px;
+        overflow: hidden;
+    }
 
 
     .tencent-app{
