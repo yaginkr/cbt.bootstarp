@@ -1,7 +1,11 @@
 .ad-detail-head-bgimg{
-    background: url(../images/nelly-antoniadou-9X1P46Y2KJo-unsplash.jpg) rgba(0, 0, 0, .6) no-repeat center;
     background-blend-mode: multiply;
+}
+
+.wechat-hero-banner{
+    background: url(../images/wechat-ad-hero-banner.jpg) rgba(0, 0, 0, .6) no-repeat bottom;
     background-size: cover;
+    
 }
 
 .swiper-wrapper{
@@ -22,6 +26,15 @@
     height: 500px;
 }
 
+
+.ad-info-swiper-tencnet-video-gif div{
+    height: 500px;
+}
+
+.ad-info-swiper-tencnet-video-gif div img{
+ 
+}
+
 .owl-carousel .great-ad-case{
     display: flex;
     flex-direction: column;
@@ -36,12 +49,6 @@
     font-weight: 600;
 }
 
-
-/* .owl-carousel .great-ad-case{
-    background: url(../images/iphone.png) no-repeat center;
-    background-size: 135%;
-    vertical-align: middle;
-} */
 
 .owl-carousel .great-ad-case img{
     width: 320px;
@@ -64,7 +71,47 @@
 }
 
 
+.tencent-app{
+    height: 500px;
+    overflow: hidden;
+}
+
+.tencent-app img{
+    width: 380px;
+}
+
+.wechat-app{
+    height: 380px;
+    overflow: hidden;
+}
+
+.wechat-app img{
+    width: 550px;
+}
+
+
+
 @media (max-width: 768px) {
+
+    .tencent-app{
+        height: 380px;
+        overflow: hidden;
+    }
+    
+    .tencent-app img{
+        max-width: 280px;
+    }
+
+    .wechat-app{
+        height: 250px;
+        overflow: hidden;
+    }
+    
+    .wechat-app img{
+        width: 350px;
+    }
+    
+    
 
     .ad-detail-head-bgimg h1{
         font-size: 32px;
@@ -108,6 +155,17 @@
 }
 
 @media (max-width: 576px) {
+
+
+    .tencent-app{
+        height: 250px;
+        overflow: hidden;
+        text-align: center;
+    }
+    
+    .tencent-app img{
+        max-width: 230px;
+    }
 
     .ad-info-swiper{
         flex-direction: column-reverse;
