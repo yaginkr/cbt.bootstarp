@@ -605,7 +605,12 @@ footer{
  @media (max-width: 576px) {
 
     .gotochina h2{
+        width: 100%;
         font-size: 21.5px;
+    }
+
+    .gotochina{
+        text-align: center;
     }
 
     .section-pt{
