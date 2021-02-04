@@ -82,62 +82,23 @@
 
 
 .tencent-app{
-    height: 450px;
+    height: 430px;
 }
 
 .tencent-app img{
-    width: 380px;
+    height: 500px;
 }
-
-.wechat-app{
-    height: 380px;
-    overflow: hidden;
-}
-
-.wechat-app img{
-    width: 550px;
-}
-
-.tencent-news-app{
-    height: 450px;
-    
-}
-
-.tencent-news-app img{
-    width: 400px;
-}
-
 
 
 @media (max-width: 768px) {
-
-    .tencent-news-app{
-        height: 450px;
-    }
     
-    .tencent-news-app img{
-    }
-    
-
     .tencent-app{
         height: 380px;
-        overflow: hidden;
     }
     
     .tencent-app img{
-        max-width: 280px;
+        height: 400px;
     }
-
-    .wechat-app{
-        height: 250px;
-        overflow: hidden;
-    }
-    
-    .wechat-app img{
-        width: 350px;
-    }
-    
-    
 
     .ad-detail-head-bgimg h1{
         font-size: 32px;
@@ -182,20 +143,15 @@
 
 @media (max-width: 576px) {
 
-    .wechat-app{
-        height: 200px;
-        overflow: hidden;
-    }
-
-
     .tencent-app{
-        height: 250px;
         overflow: hidden;
-        text-align: center;
+        height: 280px;
+        display: flex;
+        justify-content: center;
     }
     
     .tencent-app img{
-        max-width: 230px;
+        height: 480px;
     }
 
     .ad-info-swiper{

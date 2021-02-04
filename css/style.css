@@ -6,7 +6,7 @@ body{
 }
 
 
- .index-hero-title{
+.index-hero-title{
     font-weight: 800;
     font-size: 58px;
 }
@@ -21,11 +21,19 @@ body{
 /* 公共样式 */
 
 .section{
-    padding: 120px 0;
+    padding: 100px 0 100px 0;
 }
 
 .section-60{
-    padding: 60px 0;
+    padding: 100px 0 20px 0;
+}
+
+.section-pt{
+    padding-top: 100px;
+}
+
+.section-pb{
+    padding-bottom: 50px;
 }
 
 
@@ -357,6 +365,11 @@ body{
     width: 90%;
 }
 
+.gotochina h2{
+    width: 90%;
+}
+
+
 
 /* go to china end */
 
@@ -433,6 +446,20 @@ footer{
 
 
 @media (max-width: 768px) {
+
+    .section-pt{
+        padding-top: 60px;
+    }
+    
+    .section-pb{
+        padding-bottom: 40px;
+    }
+
+
+    .gotochina h2{
+        font-size: 26px;
+    }
+
     
     .about-incross-img img{
         width: 100%;
@@ -577,6 +604,24 @@ footer{
 
  @media (max-width: 576px) {
 
+    .gotochina h2{
+        font-size: 21.5px;
+    }
+
+    .section-pt{
+        padding-top: 40px;
+    }
+    
+    .section-pb{
+        padding-bottom: 25px;
+    }
+
+
+    .section-60{
+        padding-top: 30px;
+    }
+    
+
     .big-logo{
         white-space: nowrap;
         overflow-x: auto;
@@ -589,9 +634,8 @@ footer{
 
     .show-more {
         margin-top: 20px;
-        padding: 26px;
+        padding: 15px;
     }
-    
 
     .about-incross-img img{
         width: 100%;
