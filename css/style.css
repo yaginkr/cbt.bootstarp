@@ -413,6 +413,24 @@ footer{
 
 
 
+.show-more {
+    display: inline-block;
+    box-sizing: border-box;
+    margin-top: 80px;
+    width: 100%;
+    padding: 26px 148px;
+    border-radius: 9px;
+    background-color: #ebf3ff;
+    text-align: center;
+    font-size: 16px;
+    color: #a1aecf;
+    letter-spacing: 1px;
+}
+
+.logos img{
+    width: 100%;
+}
+
 
 @media (max-width: 768px) {
     
@@ -540,6 +558,14 @@ footer{
         width: 90%;
     }
 
+    .pr—part{
+        flex-direction: column-reverse;
+    }
+
+    .pr—part div img{
+        width: 100%;
+    }
+
  }
 
 
@@ -550,6 +576,22 @@ footer{
 
 
  @media (max-width: 576px) {
+
+    .big-logo{
+        white-space: nowrap;
+        overflow-x: auto;
+        padding-bottom: 16px;
+    }
+
+    .logos img{
+        width: 160%;
+    }
+
+    .show-more {
+        margin-top: 20px;
+        padding: 26px;
+    }
+    
 
     .about-incross-img img{
         width: 100%;
@@ -596,7 +638,7 @@ footer{
     }
 
     .section-title h2{
-        font-size: 28px;
+        font-size: 24px;
     }
 
     .section-title p{
