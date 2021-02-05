@@ -188,6 +188,7 @@ body{
 } */
 
 
+
 .section-title h2 {
     font-size: 18px;
     font-weight: bold;
@@ -209,6 +210,7 @@ body{
 }
 
 .services .icon-box {
+    width: 100%;
     padding: 30px;
     position: relative;
     overflow: hidden;
