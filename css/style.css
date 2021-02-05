@@ -445,6 +445,11 @@ footer{
 }
 
 
+.partner-logos img{
+    width: 100%;
+}
+
+
 @media (max-width: 768px) {
 
     .section-pt{
@@ -603,6 +608,10 @@ footer{
 
 
  @media (max-width: 576px) {
+
+    .partner-logos img{
+        width: 100%;
+    }
 
     .gotochina h2{
         width: 100%;
