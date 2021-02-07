@@ -89,6 +89,14 @@
     height: 500px;
 }
 
+.pc-mo-app{
+    height: 430px;
+}
+
+.pc-mo-app img{
+    height: 500px;
+}
+
 
 @media (max-width: 768px) {
     
@@ -143,9 +151,20 @@
 
 @media (max-width: 576px) {
 
+    .pc-mo-app{
+        overflow: hidden;
+        height: 250px;
+        width: 100%;
+    }
+
+    .pc-mo-app img{
+        height: 295px;
+    }
+    
+
     .tencent-app{
         overflow: hidden;
-        height: 280px;
+        height: 250px;
         display: flex;
         justify-content: center;
     }
