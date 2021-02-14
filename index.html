@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <script src="https://kit.fontawesome.com/80154e9c0b.js" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="https://www.incross.com/wp-content/uploads/2015/08/favicon_ico.png">
@@ -61,7 +62,7 @@
                                 <a class="dropdown-item" href="baidulist.html">바이두</a>
                                 <a class="dropdown-item" href="tencentlist.html">텐센트</a>
                                 <a class="dropdown-item" href="bytedancelist.html">바이트댄스</a>
-                                <a class="dropdown-item" href="weibolist.html">웨이보</a>
+                                <a class="dropdown-item" href="weibo.html">웨이보</a>
                                 <a class="dropdown-item" href="redlist.html">샤오홍수</a>
                                 <a class="dropdown-item" href="mafengwolist.html">마펑워</a>
                             </div>
@@ -80,11 +81,85 @@
     </header>
     <!-- 头部 结束 -->
 
-
-    <!-- 内容 开始 -->
     <main>
-        <!-- 主页头部 部分 开始 -->
-        <section class="section-60 main-hero-bgcolor">
+        <!-- 电脑端的头部，手机端隐藏 -->
+        <section class="d-none d-md-block">
+            <div class="swiper-container">
+                <div class="swiper-wrapper index">
+                    <div class="swiper-slide index-1">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="jumbotron section-pb section-pt">
+                                        <h1 class="display-4 font-weight-bolder">함께, 파트너</h1>
+                                        <p class="lead">함께 고민하고, 함께 상징합니다.</p>
+                                        <hr class="my-md-4 my-2">
+                                        <p>고객의 입장에서 <span>함께</span> 고민하는 <span>파트너</span></p>
+                                        <p>최적의 결과물을 <span>함께</span> 창출하는 <span>파트너</span></p>
+                                        <p>지속적 합력으로 <span>함께</span> 성장하는 <span>파트너</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide index-2">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="jumbotron section-pb section-pt">
+                                        <h1 class="display-4 font-weight-bolder">기회와 불안</h1>
+                                        <p class="lead">그럼에도 불구하고 역시 중국.</p>
+                                        <hr class="my-4">
+                                        <p>누군가는 <span>기회</span>를 행한 <span>한걸음</span>을</p>
+                                        <p>누군가는 <span>불안</span>에 따른 <span>망설임</span>을</p>
+                                        <p>그러나 이전부터 늘 그래왔듯이</p>
+                                        <p>두가지는 항상 공존해왔습니다</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide index-3">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="jumbotron section-pb section-pt">
+                                        <h1 class="display-4 font-weight-bolder">기회와 불안</h1>
+                                        <p class="lead">그럼에도 불구하고 역시 중국.</p>
+                                        <hr class="my-4">
+                                        <p>누군가는 <span>기회</span>를 행한 <span>한걸음</span>을</p>
+                                        <p>누군가는 <span>불안</span>에 따른 <span>망설임</span>을</p>
+                                        <p>그러나 이전부터 늘 그래왔듯이</p>
+                                        <p>두가지는 항상 공존해왔습니다</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide index-4">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="jumbotron section-pb section-pt">
+                                        <h1 class="display-4 font-weight-bolder">地大人多</h1>
+                                        <p class="lead">땅도 크고, 사람 많은 중국.</p>
+                                        <hr class="my-4">
+                                        <p>이전에도 현재도 드리고 앞으로도</p>
+                                        <p>그곳에는 <span>기회와 성공</span>이 있습니다.</p>
+                                        <p>마찬가지 <span>불안과 실패</span>도 있습니다.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add Arrows -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </section>
+
+        <section class="main-hero-bgcolor d-block d-sm-none">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 col-sm-12">
@@ -95,127 +170,282 @@
                             <p class="lead">중국 시장으로 진출을 인크로스 중국사엄팀이 도와드립니다.</p>
                           </div>
                     </div>
-                    <div class="col-md-6 hero-banner d-sm-none d-md-block">
-                        <!-- 这一层是主页的banner图片， 暂时这样子设计，在pc端上显示图片，在手机端上隐藏。 
-                            等了解好 threejs 的地球如何制作再添加 -->
-                    </div>
                 </div>
             </div>
         </section>
-        <!-- 主页头部 部分 结束 -->
 
-        <!-- about china 开始 -->
-        <section class="section bg-light-grey feature">
+
+    <!-- 内容 开始 -->
+        
+        <section class="pdt-0 pdb-210 pdb-md-110 minus-mrt-130 bg-pos-center-bottom section-pt section-pb">
             <div class="container">
-                <div class="section-title text-center">
-                    <h2>2020년 중국 인터넷 현황</h2>
-                    <p>인크로스 중국사업팀은 중국 통합 디지털마케팅을 위한 전방위 서비스를 제공하고 있습니다.</p>
-                    <p CLASS="text-muted">*2020년6월 중국CNNIC리포트 기준</p>
-                </div>
-                <div class="row py-5">
-                    <div class="col-lg-6 col-md-5 col-xs-12 my-2">
-                        <img src="./images/counts-img.svg" alt="" class="img-fluid">
-                    </div>
-                    <div class="col-lg-6 col-md-7 col-xs-12  section-sub-title">
-                        <h2>제 46회 중국 인터넷 발전 현황 통계 리포트 </h2>
-                        <div class="row my-5">
-                            <!-- 上网人数 -->
-                            <div class="col-6">
-                                <div class="row new-china-network-info justify-content-md-center">
-                                    <div class="col-md-2 col-12 new-china-network-info-icon"><i class="fas fa-users"></i></div>
-                                    <div class="col-md-10 col-12">
-                                        <h1>93,984<span>만명</span></h1>
-                                        <p>인터넷 사용자</p>
+                <div class="row align-items-center pdt-80 justify-content-lg-between justify-content-center">
+                    <div class="col-md-12 col-xl-6">
+                        <h5 class="text-primary-color sub-title-side-line font-weight-bolder">중국 네티즌 규모</h5>
+                        <h2 class="font-weight-bolder mb-3">10억명 네티즌 접근 한<br>  세계 최대의 디지털 사회</h2>
+                        <p class="mb-lg-5 mb-3">20년 12월기준,중국 네티즌 규모 9.89억명, 20년 3월 비해 8,540만명 증가. 모바일 네티즌 규모 9.86억명, 20년 3월 비해 8,885만명 증가. 증세 연령대는 청년에서 노련층 증가 추세 보임.</p>
+                        <div class="skills mrb-lg-60 about-box-wrap">
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <h6 class="skill-title font-weight-bolder">중국 인터넷 보급류</h6>
+                                    <div class="skill-percentage">
+                                        <div class="count-box counted"><span class="count-text" data-speed="2100" data-stop="70.4">70.4</span>%</div>
+                                    </div>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="bar-inner">
+                                        <div class="bar progress-line" data-width="70.4" style="width: 70.4%;"></div>
+                                    </div>
+                                </div>
+                                <div class="row mt-3">
+                                    <div class="col-md-12 col-sm-12">
+                                        <div class="internet-user">
+                                            <p>중국 인터넷 유저 <span>98,899</span> 만명</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <!-- 移动端上网人数 -->
-                            <div class="col-6">
-                                <div class="row new-china-network-info justify-content-md-center">
-                                    <div class="col-md-2 new-china-network-info-icon"><i class="fas fa-wifi"></i></div>
-                                    <div class="col-md-10">
-                                        <h1>93,236<span>만명</span></h1>
-                                        <p>모바일 사용자</p>
+  
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <h6 class="skill-title font-weight-bolder">인터넷 유저 중 모바일 인테넛 유저 점유</h6>
+                                    <div class="skill-percentage">
+                                        <div class="count-box counted"><span class="count-text" data-speed="2000" data-stop="99.7">99.7</span>%</div>
                                     </div>
                                 </div>
-                            </div>
-                            <!-- 周上网时间 -->
-                            <div class="col-6">
-                                <div class="row new-china-network-info justify-content-md-center">
-                                    <div class="col-md-2  new-china-network-info-icon"><i class="fas fa-clock"></i></div>
-                                    <div class="col-md-10">
-                                        <h1>28.0<span>시간</span></h1>
-                                        <p>주 인터넷 이용</p>
+                                <div class="skill-bar">
+                                    <div class="bar-inner">
+                                        <div class="bar progress-line" data-width="99.7" style="width: 99.7%;"></div>
                                     </div>
                                 </div>
-                            </div>
-                            <!-- 上网占据人数 -->
-                            <div class="col-6">
-                                <div class="row new-china-network-info justify-content-md-center">
-                                    <div class="col-md-2 new-china-network-info-icon"><i class="fas fa-mobile"></i></div>
-                                    <div class="col-md-10">
-                                        <h1>99.2<span>%</span></h1>
-                                        <p>모바일로 접속</p>
+                                <div class="row mt-3">
+                                    <div class="col-md-12 col-sm-12">
+                                        <div class="internet-user">
+                                            <p>모바일 인터넷 유저 <span>98,576</span> 만명</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="row py-5">
-                    <div class="col-md-5">
-                        <img src="./images/features-1.svg" alt="" class="img-fluid">
-                    </div>
-                    <div class="col-md-7">
-                        <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic ipsa vero eius enim perferendis dolore fugiat, dicta reiciendis odio quidem veritatis illo impedit ipsam placeat est facere animi facilis qui.</p>
-                        <ul>
-                            <li><i class="fas fa-check"></i>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                            <li><i class="fas fa-check"></i>Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                        </ul>
+                    <div class="col-md-12 col-xl-5">
+                        <div class="about-image-block">
+                            <img class="img-full" src="images/clay-banks-U0-r0JMypE0-unsplash.jpg" alt="">
+                        </div>
                     </div>
                 </div>
-                <div class="row py-5">
-                    <div class="col-md-5 order-2">
-                        <img src="./images/features-2.svg" alt="" class="img-fluid">
-                    </div>
-                    <div class="col-md-7 order-1">
-                        <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic ipsa vero eius enim perferendis dolore fugiat, dicta reiciendis odio quidem veritatis illo impedit ipsam placeat est facere animi facilis qui.</p>
-                        <ul>
-                            <li><i class="icofont-check"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                            <li><i class="icofont-check"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="row py-5">
-                    <div class="col-md-5">
-                        <img src="./images/features-3.svg" alt="" class="img-fluid">
-                    </div>
-                    <div class="col-md-7">
-                        <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic ipsa vero eius enim perferendis dolore fugiat, dicta reiciendis odio quidem veritatis illo impedit ipsam placeat est facere animi facilis qui.</p>
-                        <ul>
-                            <li><i class="icofont-check"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                            <li><i class="icofont-check"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="row py-5">
-                    <div class="col-md-5 order-2">
-                        <img src="./images/features-4.svg" alt="" class="img-fluid">
-                    </div>
-                    <div class="col-md-7 order-1">
-                        <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic ipsa vero eius enim perferendis dolore fugiat, dicta reiciendis odio quidem veritatis illo impedit ipsam placeat est facere animi facilis qui.</p>
-                        <ul>
-                            <li><i class="icofont-check"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                            <li><i class="icofont-check"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                        </ul>
-                    </div>
-                </div>
+            </div>
         </section>
-        <!-- about china 结束 -->
+
+        <!-- <section class="section-pt section-pb">
+            <div class="container">
+                <div class="row mrt-100 mrt-lg-90">
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="funfact mrb-lg-30 mrb-60">
+                            <div class="icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <h2 class="counter">9.898<span>억명</span></h2>
+                            <h5 class="title">인터넷 이용자</h5>
+                         </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="funfact mrb-lg-30 mrb-60">
+                            <div class="icon">
+                                <i class="fas fa-mobile-alt"></i>
+                            </div>
+                            <h2 class="counter">9.897<span>억명</span></h2>
+                            <h5 class="title">Mo 인터넷 이용자</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="funfact mrb-lg-30 mrb-60">
+                            <div class="icon">
+                                <span class="webexflaticon flaticon-trophy-1"></span>
+                             </div>
+                             <h2 class="counter">26.2<span>시간</span></h2>
+                            <h5 class="title">주 인터넷 이용</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="funfact mrb-lg-30 mrb-60">
+                            <div class="icon">
+                                <span class="webexflaticon flaticon-briefcase-1"></span>
+                            </div>
+                            <h2 class="counter">32</h2>
+                            <h5 class="title">Experiences</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+        <section id="features" class="features bg-light-grey section-pb section-pt">
+
+            <div class="container" data-aos="fade-up">
+      
+              <div class="section-header">
+                <p>중국 인터넷 발전 현황</p>
+              </div>
+              <p CLASS="text-muted">*2021년2월 중국CNNIC리포트 기준</p>
+              <div class="row">
+      
+                <div class="col-lg-6">
+                  <img src="./images/features.png" class="img-fluid" alt="">
+                </div>
+      
+                <div class="col-lg-6 mt-5 mt-lg-0 d-flex">
+                  <div class="row align-self-center gy-4">
+      
+                    <div class="col-md-6" data-aos="zoom-out" data-aos-delay="200">
+                      <div class="feature-box d-flex align-items-center">
+                        <i class="bi bi-check"></i>
+                        <h3>Eos aspernatur rem</h3>
+                      </div>
+                    </div>
+      
+                    <div class="col-md-6" data-aos="zoom-out" data-aos-delay="300">
+                      <div class="feature-box d-flex align-items-center">
+                        <i class="bi bi-check"></i>
+                        <h3>Facilis neque ipsa</h3>
+                      </div>
+                    </div>
+      
+                    <div class="col-md-6" data-aos="zoom-out" data-aos-delay="400">
+                      <div class="feature-box d-flex align-items-center">
+                        <i class="bi bi-check"></i>
+                        <h3>Volup amet voluptas</h3>
+                      </div>
+                    </div>
+      
+                    <div class="col-md-6" data-aos="zoom-out" data-aos-delay="500">
+                      <div class="feature-box d-flex align-items-center">
+                        <i class="bi bi-check"></i>
+                        <h3>Rerum omnis sint</h3>
+                      </div>
+                    </div>
+      
+                    <div class="col-md-6" data-aos="zoom-out" data-aos-delay="600">
+                      <div class="feature-box d-flex align-items-center">
+                        <i class="bi bi-check"></i>
+                        <h3>Alias possimus</h3>
+                      </div>
+                    </div>
+      
+                    <div class="col-md-6" data-aos="zoom-out" data-aos-delay="700">
+                      <div class="feature-box d-flex align-items-center">
+                        <i class="bi bi-check"></i>
+                        <h3>Repellendus mollitia</h3>
+                      </div>
+                    </div>
+      
+                  </div>
+                </div>
+      
+              </div> <!-- / row -->
+      
+              <!-- Feature Tabs -->
+              <div class="row feture-tabs justify-content-lg-between" data-aos="fade-up">
+                <div class="col-lg-6">
+                    <h3 class="mb-lg-4 mb-2">온라인 영상은 쇼트클립으로, <br/>쇼트클립은 다방향으로.</h3>
+                    <p class="mb-lg-5 mb-2">长短视频平台相互渗透，融合发展以吸引用户和流量。短视频推出与自身平台匹配的“微剧”，“微综艺”来试水长视频领域。短视频平台进军支付领域，完成电商生态布局。以及迅速占领海外市场。</p>
+                    <p class="mb-3">2020年12月，中国网络视频（含短视频）用户规模达9.27亿，较2020年3月增长7633万，占网民整体93.7%。其中短视频用户规模为8.73亿，较2020年3月增长1亿。占网民整体的88.3%。</p>
+                    <div class="about-box-wrap">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6">
+                                <div class="about-box">
+                                    <h6>Online Video 규모</h6>
+                                    <h5 class="counter">92,677<span>만명</span></h5>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6">
+                                <div class="about-box">
+                                    <h6>Short Clip 규모</h6>
+                                    <h5 class="counter">87,335<span>만명</span></h5>
+                                </div>
+                            </div>
+                            <p class="text-muted">*Online Video 유저수는 Short Clip 유저 포함.</p>
+                        </div>
+                    </div>
+                </div>
+      
+                <div class="col-lg-5">
+                  <img src="./images/features-3.png" class="img-fluid" alt="">
+                </div>
+      
+              </div><!-- End Feature Tabs -->
+      
+              <!-- 중국 온라인 영상 현황 -->
+              <div class="row feature-icons" data-aos="fade-up">
+                <h3>중국 온라인 영상 현황</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci numquam vitae laboriosam ducimus nisi sit beatae, voluptas itaque culpa eaque eveniet sequi, amet maiores quod.</p>
+                <div class="row">
+      
+                  <div class="col-xl-4 text-center" data-aos="fade-right" data-aos-delay="100">
+                    <img src="./images/features-3.png" class="img-fluid p-4" alt="">
+                  </div>
+      
+                  <div class="col-xl-8 d-flex content">
+                    <div class="row align-self-center gy-4">
+      
+                      <div class="col-md-6 icon-box" data-aos="fade-up">
+                        <i class="ri-line-chart-line"></i>
+                        <div>
+                          <h4>Corporis voluptates sit</h4>
+                          <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                        </div>
+                      </div>
+      
+                      <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+                        <i class="ri-stack-line"></i>
+                        <div>
+                          <h4>Ullamco laboris nisi</h4>
+                          <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+                        </div>
+                      </div>
+      
+                      <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
+                        <i class="ri-brush-4-line"></i>
+                        <div>
+                          <h4>Labore consequatur</h4>
+                          <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+                        </div>
+                      </div>
+      
+                      <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
+                        <i class="ri-magic-line"></i>
+                        <div>
+                          <h4>Beatae veritatis</h4>
+                          <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
+                        </div>
+                      </div>
+      
+                      <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
+                        <i class="ri-command-line"></i>
+                        <div>
+                          <h4>Molestiae dolor</h4>
+                          <p>Et fuga et deserunt et enim. Dolorem architecto ratione tensa raptor marte</p>
+                        </div>
+                      </div>
+      
+                      <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
+                        <i class="ri-radar-line"></i>
+                        <div>
+                          <h4>Explicabo consectetur</h4>
+                          <p>Est autem dicta beatae suscipit. Sint veritatis et sit quasi ab aut inventore</p>
+                        </div>
+                      </div>
+      
+                    </div>
+                  </div>
+      
+                </div>
+      
+              </div><!-- End Feature Icons -->
+      
+            </div>
+      
+        </section><!-- End Features Section -->
 
         <!-- 中国市场 开始 -->
         <section class="gotochina section-60 ask">
@@ -275,5 +505,17 @@
     <!-- 脚步 结束 -->
     <script src="./js/jquery-3.5.1.min.js"></script>
     <script src="./bootstrap/js/bootstrap.min.js"></script>
+      <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+        navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
 </body>
 </html>
