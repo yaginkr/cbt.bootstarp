@@ -5,6 +5,24 @@ body{
     font-family: 'Nanum Gothic', sans-serif;
 }
 
+.icon-shape-primary {
+    color: #0948b3;
+    background-color: rgba(9,72,179,.2);
+}
+
+.icon-shape {
+    width: 4.5rem;
+    height: 4.5rem;
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-shape span, .icon-shape svg {
+    font-size: 2rem;
+}
+
 .starter-template{
     height: 50vh;
     align-items: center;
