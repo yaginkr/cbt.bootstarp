@@ -150,29 +150,26 @@
         <section class="section-pt section-pb ">
             <div class="container">
                 <div class="section-title text-center py-sm-2 py-md-5">
-                    <h2>바이두 피드 광고 양식</h2>
-                    <p>국내 대기업, 관공서등 다양한 업종 및 분야의 중국 디지털 마케팅 집행 이력이 풍부합니다.</p>
+                    <h2>바이두 브랜드 ZONE 광고 양식</h2>
+                    <p>브랜드 키워드 입력 시, 최상단 독점 노출</p>
                 </div>
-                <div class="owl-carousel">
-                    <div class="great-ad-case">
-                        <img src="../images/adcase/tencent_video_fs.png" alt="" />
-                        <h5>풀 스크린 배너</h5>
+
+                <div class="row">
+                    <div class="col-3 col-md mb-5">
+                        <img src="../images/benz.png" style="width: 100%; border-radius: 20px; border: .4rem solid #000;">
+                        <p class="mt-2 text-center">밴츠 PC</p>
                     </div>
-                    <div class="great-ad-case">
-                        <img src="../images/adcase/tencent_video_feed.png" alt="" />
-                        <h5>피드 광고</h5>
+                    <div class="col-3 col-md-2 mb-2 justify-content-md-center text-center">
+                        <img src="../images/adcase/baidu-huawei-brand-zone.jpg" style="width: 100%; border-radius: 23px; border: .4rem solid #000;">
+                        <p class="mt-2 text-center">화웨이 모바일</p>
                     </div>
-                    <div class="great-ad-case">
-                        <img src="../images/adcase/tencent_video_banner.png" alt="" />
-                        <h5>이미지형 광고</h5>
-                    </div>
-                    <div class="great-ad-case">
-                        <img src="../images/adcase/tencent_video_freerow.png" alt="" />
-                        <h5>15초 논스킵 프리롤</h5>
-                    </div>
-                    <div class="great-ad-case">
-                        <img src="../images/adcase/tencent_video_916.png" alt="" />
-                        <h5>9:16 비디오</h5>
+                    <!-- <div class="col-3 col-md-6 mb-5 justify-content-md-center text-center">
+                        <img src="../images/adcase/baidu-gucci-brand-zone.jpg" style="height: 420px; border-radius: 25px; border: .4rem solid #000;">
+                        <p class="mt-2 text-center">구찌 모바일</p>
+                    </div> -->
+                    <div class="col-3 col-md mb-5">
+                        <img src="../images/qichacha.png" style="width: 100%; border-radius: 20px; border: .4rem solid #000;">
+                        <p class="mt-2 text-center">QICHACHA PC</p>
                     </div>
                 </div>
             </div>
@@ -250,29 +247,10 @@
 
     <script>
         $('.owl-carousel').owlCarousel({
+            margin:10,
             loop:true,
-            center:true,
-            items:2.5,
-            margin:80,
-            dots:true,
-            autoplay:true,
-            autoplayTimeout:5500,
-            nav:false,
-            responsiveClass:true,
-            responsive:{
-                0:{
-                    items:2,
-                    nav:true,
-                    center:true,
-                },
-                600:{
-                    items:2.3,
-                    nav:false
-                },
-                1000:{
-                    items:2.5,
-                }
-            }
+            autoWidth:true,
+            items:4
         })
     </script>
 </body>
