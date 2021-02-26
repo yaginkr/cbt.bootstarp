@@ -10,6 +10,24 @@ body{
     background-color: #0948b3
 }
 
+.not-found-404{
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.not-found-404 i{
+    font-size: 40px;
+    margin-bottom: 15px;
+    color: #848484;
+}
+
+.not-found-404 p{
+    color: #848484;
+}
+
 .icon-shape {
     width: 4.5rem;
     height: 4.5rem;
@@ -19,10 +37,10 @@ body{
     justify-content: center;
 }
 
+
 .icon-shape span, .icon-shape svg {
     font-size: 2rem;
 }
-
 
 
 .list-group {
