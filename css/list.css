@@ -2,6 +2,7 @@
     background: url(../images/nhu-nguyen-IL1qSqEMNBo-unsplash.jpg) rgba(0, 0, 0, .6) no-repeat center;
     background-blend-mode: multiply;
     background-size: cover;
+    color: #ffffff;
 }
 
 .ad-list-head {
