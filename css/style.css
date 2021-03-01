@@ -5,6 +5,7 @@ body{
     font-family: 'Nanum Gothic', sans-serif;
 }
 
+
 .icon-shape-primary {
     color: #ffffff;
     background-color: #0948b3
@@ -685,7 +686,7 @@ body{
 }
 
 .bg-light-grey {
-    background: #F9F9FB;
+    background: #f7f9fc;
 }
 
 
@@ -693,13 +694,8 @@ body{
 
 .new-china-network-info{
     padding: 15px;
-    text-align: right;
 }
 
-.new-china-network-info i{
-    margin-top: 5px;
-    font-size: 32px;
-}
 
 .new-china-network-info span{
     font-size: 18px;
@@ -760,13 +756,6 @@ body{
     color: #222222;
 }
 
-.section-title h2::before, .section-title h2::after {
-    content: '';
-    width: 50px;
-    height: 2px;
-    background: #3498db;
-    display: inline-block;
-}
 
 .section-title p {
     margin: 15px 0 0 0;
@@ -834,33 +823,10 @@ body{
 /*  */
 
 .section-title h2 {
-    font-size: 28px;
+    font-size: 32px;
     font-weight: 700;
     margin-bottom: 20px;
-    padding-bottom: 20px;
     position: relative;
-}
-
-.section-title h2::before {
-    content: '';
-    position: absolute;
-    display: block;
-    width: 120px;
-    height: 1px;
-    background: #ddd;
-    bottom: 1px;
-    left: calc(50% - 60px);
-}
-
-.section-title h2::after {
-    content: '';
-    position: absolute;
-    display: block;
-    width: 40px;
-    height: 3px;
-    background: #68A4C4;
-    bottom: 0;
-    left: calc(50% - 20px);
 }
 
 .section-sub-title{
@@ -878,15 +844,9 @@ body{
     text-align: center;
 }
 
-.new-china-network-info i{
-    margin: 5px 0;
-    font-size: 32px;
-    color:#3498db;
-}
 
 .new-china-network-info h1{
     font-size: 32px;
-    padding-left: 10px;
     font-weight: 600;
 }
 
@@ -1018,11 +978,11 @@ footer{
 @media (max-width: 768px) {
 
     .section-pt{
-        padding-top: 60px;
+        padding-top: 20px;
     }
     
     .section-pb{
-        padding-bottom: 40px;
+        padding-bottom: 20px;
     }
 
 
@@ -1191,7 +1151,7 @@ footer{
     }
 
     .section-pt{
-        padding-top: 40px;
+        padding-top: 25px;
     }
     
     .section-pb{
