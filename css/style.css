@@ -334,6 +334,15 @@ body{
         font-size: 14px!important
     }
 
+    .icon-shape span, .icon-shape svg {
+        font-size: 1.5rem;
+    }
+
+    .icon-shape {
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+
   }
   
   .features .feture-tabs .nav-pills {
