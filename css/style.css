@@ -411,9 +411,7 @@ body{
   
   .features .feature-icons .content .icon-box i {
     font-size: 44px;
-    line-height: 44px;
     color: #0245bc;
-    margin-right: 15px;
   }
   
   .features .feature-icons .content .icon-box p {
@@ -474,10 +472,8 @@ body{
 }
 
 .icon-box i {
-    font-size: 28px;
-    line-height: 44px;
+    font-size: 26px;
     color: #ffffff;
-    margin-right: 15px;
 }
 
 .features .feature-icons .content .icon-box {
@@ -810,7 +806,7 @@ body{
 
 .services .icon {
     margin: 0 auto 20px auto;
-    padding-top: 10px;
+    padding-top: 6px;
     display: inline-block;
     text-align: center;
     border-radius: 50%;
@@ -1081,6 +1077,10 @@ footer{
     .ask img{
         width: 230px;
     }
+    .icon-box i {
+        font-size: 18px;
+        color: #ffffff;
+    }
 
     .services .icon-box {
         padding: 15px;
@@ -1108,7 +1108,6 @@ footer{
     
     .services .icon {
         margin: 0 auto 20px auto;
-        padding-top: 10px;
         display: inline-block;
         text-align: center;
         border-radius: 50%;
@@ -1308,7 +1307,6 @@ footer{
     
     .services .icon {
         margin: 0 auto 20px auto;
-        padding-top: 10px;
         display: inline-block;
         text-align: center;
         border-radius: 50%;
