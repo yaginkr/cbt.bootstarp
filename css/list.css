@@ -35,6 +35,14 @@
         width: 100%;
         margin: 15px 0px;
     }
+    
+    .servier-title{
+        font-size: 30px;
+    }
+
+    .servier-img img{
+        width: 100%;
+    }
 
 }
 
