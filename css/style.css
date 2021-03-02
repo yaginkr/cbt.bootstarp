@@ -321,6 +321,15 @@ body{
     .features .feture-tabs h3 {
       font-size: 28px;
     }
+
+    .ad-list-head-bgimg .container .jumbotron h1{
+        font-size: 30px;
+        font-weight: 900;
+    }
+    .ad-list-head-bgimg .container .jumbotron p{
+        font-size: 14px;
+    }
+
   }
   
   .features .feture-tabs .nav-pills {
