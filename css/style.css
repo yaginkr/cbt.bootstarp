@@ -329,6 +329,10 @@ body{
     .ad-list-head-bgimg .container .jumbotron p{
         font-size: 14px;
     }
+    
+    p{
+        font-size: 14px!important
+    }
 
   }
   
