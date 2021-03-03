@@ -834,7 +834,9 @@ body{
 /* our service2  结束 */
 
 
-
+.template_logo img{
+    width: 15%;
+}
 
 
 
@@ -994,6 +996,10 @@ footer{
 
 
 @media (max-width: 768px) {
+
+    .template_logo img{
+        width: 30%;
+    }
 
     .section-pt{
         padding-top: 20px;

@@ -19,6 +19,13 @@
 }
 
 
+.adshow-bilibili{
+    border-radius: 20px;
+    border: .4rem solid #000;
+    width: auto;
+}
+
+
 .adshow-notrow{
     display: flex;
     justify-content: space-between;
