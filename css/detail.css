@@ -26,6 +26,32 @@
 }
 
 
+.adshow-bilibili2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow-y: scroll;
+    flex-wrap: nowrap;
+}
+
+
+.adshow-bilibili2 div{
+
+}
+
+
+.adshow-bilibili2 div img, .adshow-bilibili2 div video{
+    border-radius: 20px;
+    border: .4rem solid #000;
+    width: 200px;
+    margin: 0 15px;
+    object-fit: fill;
+}
+
+.adshow-bilibili2::-webkit-scrollbar{
+    display: none;
+}
+
 .adshow-notrow{
     display: flex;
     justify-content: space-between;
