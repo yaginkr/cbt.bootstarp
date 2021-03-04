@@ -5,6 +5,9 @@ body{
     font-family: 'Nanum Gothic', sans-serif;
 }
 
+.navbar{
+    padding: .5rem 0rem;
+}
 
 .icon-shape-primary {
     color: #ffffff;
