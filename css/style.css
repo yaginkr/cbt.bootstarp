@@ -1,6 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Yusei+Magic&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
 
+
+
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10000;
+}
+
+main{
+    margin-top: 100px;
+}
+@media (max-width: 768px) {
+    main{
+        margin-top: 70px;
+    }
+}
+
+
 body{
     font-family: 'Nanum Gothic', sans-serif;
 }
@@ -663,6 +682,14 @@ body{
 /* 头部logo的大小 */
 .top-logo img{
     width: 180px;
+}
+
+.navbar-brand{
+    width: 180px;
+}
+
+.navbar-brand img{
+    width: 100%;
 }
 
 .nav-link{
