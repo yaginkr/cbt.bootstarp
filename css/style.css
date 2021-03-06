@@ -8,6 +8,8 @@ header{
     top: 0;
     width: 100%;
     z-index: 10000;
+    box-shadow: 0 3px 5px 0 rgb(0 0 0 / 10%);
+    transition: all .3s linear 0s;
 }
 
 main{
