@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Yusei+Magic&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
 
+html{
+    scroll-behavior: smooth;
+}
 
-
-header{
+/* header{
     position: fixed;
     top: 0;
     width: 100%;
@@ -15,16 +17,47 @@ header{
 main{
     margin-top: 100px;
 }
+
 @media (max-width: 768px) {
     main{
         margin-top: 70px;
     }
-}
+} */
 
 
 body{
     font-family: 'Nanum Gothic', sans-serif;
 }
+
+
+.scroll-to-top{
+    position:fixed;
+    bottom: 40px;
+    right: 40px;
+    text-align: center;
+}
+
+.scroll-to-top div{
+    padding: 10px;
+    width: 75px;
+    height: 75px;
+    font-size: 12px;
+    margin: 2px 0;
+    border: solid #afdefb 1px;
+    background: #d5f2ff;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.scroll-to-top div a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
 
 .navbar{
     padding: .5rem 0rem;
@@ -125,6 +158,8 @@ body{
     background-size: cover;
     padding: 100px 50px ;
 }
+
+
 
 
 .index-1 .jumbotron, .index-2 .jumbotron,
@@ -262,12 +297,14 @@ body{
     margin-right: 5px;
 }
 
+
+
 .about-box-wrap {
     margin-bottom: 10px;
 }
 
 .about-box-wrap .about-box {
-    padding: 25px;
+    padding: 20px;
     border-radius: 10px;
     margin-bottom: 30px;
     background: #fff;
@@ -277,9 +314,6 @@ body{
     -webkit-box-shadow: 0 5px 15px 0 rgb(194 188 210 / 20%);
     box-shadow: 0 5px 15px 0 rgb(194 188 210 / 20%);
 }
-
-
-
 
 .about-box-wrap .about-box h6 {
     font-size: 18px;
@@ -297,6 +331,33 @@ body{
     color: #000;
     margin-left: 5px;
 }
+
+@media (max-width: 768px) {
+
+    .about-box-wrap .about-box {
+        padding: 8px;
+        margin-bottom: 30px;
+    }
+    
+    .about-box-wrap .about-box h6 {
+        font-size: 16px;
+        font-weight: 600;
+    }
+    
+    .about-box-wrap .about-box h5 {
+        font-size: 20px;
+        font-weight: 700;
+        color: #5268F2;
+    }
+    
+    .about-box-wrap .about-box span {
+        font-size: 20px;
+        color: #000;
+        margin-left: 5px;
+    }
+}
+
+
 
 /*--------------------------------------------------------------
 # Features
