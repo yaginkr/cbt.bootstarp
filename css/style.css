@@ -44,29 +44,58 @@ body{
     height: 75px;
     font-size: 12px;
     margin: 2px 0;
-    border: solid #afdefb 1px;
-    background: #d5f2ff;
+    /* border: solid #afdefb 1px; */
+    background: #ebf3ff;
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.scroll-to-top a{
-    text-decoration: none;
-    cursor: pointer;
+.scroll-to-top i{
+    font-size: 22px;
 }
 
 
+.scroll-to-top a{
+    text-decoration: none;
+    cursor: pointer;
+    color:#a1aecf
+}
+
+@media (max-width: 768px) {
+    .scroll-to-top{
+        bottom: 10px;
+        right: 10px;
+    }
+    .scroll-to-top div{
+        width: 50px;
+        height: 50px;
+    }
+
+    .scroll-to-top i{
+        font-size: 18px;
+    }
+    
+}
 
 
 .navbar{
     padding: .5rem 0rem;
 }
 
+.navbar li{
+    margin: 0px 5px;
+}
+
+.navbar li a{
+    font-size: 18px;
+}
+
+
 .icon-shape-primary {
     color: #ffffff;
-    background-color: #0948b3
+    background-color: #0C3A58
 }
 
 .not-found-404{
